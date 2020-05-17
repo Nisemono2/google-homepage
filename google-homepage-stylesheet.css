@@ -1,0 +1,79 @@
+
+
+.nav-left {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    color: black;
+    float: left;
+    margin: 10px;
+    margin-top: auto;
+}
+
+.nav-right {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    color: black;
+    float: right;
+    margin: 10px;
+    margin-top: auto;
+}
+/* Hyperlink Fix */
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* End of Hyperlink Fix */
+.foot-nav-right {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    float: right;
+    margin: 10px;
+    border-style: solid;
+    border-color: lightgray;
+
+   
+}
+
+.foot-nav-left {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    float: left;
+    margin: 10px;
+
+}
+
+.logo {
+    padding-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+}
+
+#searchbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 20px;
+    
+
+}
+.buttons {
+    display: inline-block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
+
+}

@@ -1,66 +1,49 @@
 <!DOCTYPE html>
-<html>
-
-<style>
-    #google-logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
-        padding-top: 100px
-    }
-
-    ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-    li {
-        display: inline;
-        padding: 6px 18px;
-        color: gray;
-    }
-
-    #Search-bar {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 550px;
-        margin-top: 100px;
-    }
-
-    
-    
-        #centerbuttons{
-   width:250px; 
-   margin:0 auto;
-}       
-}
-    
-</style>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="google-homepage-stylesheet.css" rel="stylesheet" type="text/css">
+    <title>Google-Homepage</title>
+</head>
 <header>
-    <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-    
+    <nav>
+        <ul>
+        <!--Nav Bar Left-->
+            <li class="nav-left"><a href="#">About</a></li>
+            <li class="nav-left"><a href="#">Store</a></li>
+         <!--Nav Bar Right-->
+            <li class="nav-right"><a href="#">Gmail</a></li>
+            <li class="nav-right"><a href="#">Images</a></li>
+        
+        </ul>
+    </nav>
 </header>
-    <body>
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"
-    
-        <form>
-            <input id="Search-bar" type="text" placeholder="Search">
-            <div id="centerbuttons">
-                <input value="Search" title="Search" type="submit"> 
-                <input value="I'm Feeling Lucky" title="I'm Feeling Lucky" name="lucky" type="submit">
-           </div>
-    
-        </form>
-    </body>
 
+<body>
+    <div>
+    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google-logo">
+    </div>
+   <div>
+    <form>
+        <input id="searchbar" type="text">
+        <button class="buttons" type="submit">Google Search</button>
+        <button class="buttons" type="submit">I'm Feeling Lucky</button>
+    </form>
+    </div>
+</body>
 
-
+<footer>
+    <ul>
+    <!--Foot-Nav-Left-->
+        <li class="foot-nav-left"><a href="#">Advertising</a></li>
+        <li class="foot-nav-left"><a href="#">Business</a></li>
+        <li class="foot-nav-left"><a href="#">How Search Works</a></li>
+    <!--Foot-Nav-Right-->    
+        <li class="foot-nav-right"><a href="#">Privacy</a></li>
+        <li class="foot-nav-right"><a href="#">Terms</a></li>
+        <li class="foot-nav-right"><a href="#">Settings</a></li>
+    </ul>
+</footer>
 </html>
