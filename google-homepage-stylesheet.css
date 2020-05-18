@@ -18,6 +18,7 @@
     float: right;
     margin: 10px;
     margin-top: auto;
+    margin-left: 0px;
 }
 /* Hyperlink Fix */
 
@@ -27,6 +28,9 @@ a, a:hover, a:focus, a:active {
 }
 button {
     font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    
+    
 }
 
 /* End of Hyperlink Fix */
@@ -35,11 +39,7 @@ button {
     font-family: 'Roboto', sans-serif;
     color: gray;
     float: right;
-    margin: 10px;
-    border-style: solid;
-    border-color: lightgray;
-
-   
+    margin: 10px;  
 }
 
 .foot-nav-left {
@@ -48,6 +48,7 @@ button {
     color: gray;
     float: left;
     margin: 10px;
+    
 
 }
 
@@ -66,7 +67,13 @@ button {
     border-style: solid;
     border-color: lightgray;
     border-radius: 20px;
-    
+    height: 30px;
+    width: 600px;
+    margin-top: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: right;
 
 }
 .buttons {
@@ -76,4 +83,22 @@ button {
     font-family: 'Roboto', sans-serif;
 
 
+}
+
+.b1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.FNVL {
+
+    position: fixed;
+    bottom: 0px;
+}
+
+.FNVR {
+
+    position: fixed;
+    bottom: 0px;
+    margin-left: 1100px;
 }
